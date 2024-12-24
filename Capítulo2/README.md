@@ -12,19 +12,23 @@ Al finalizar la práctica, serás capaz de aplicar un modelado de amenazas usand
 
 ### Tarea 1. Analisis del caso
 
-Paso 1. Abrir la carpeta de archivos ubicada en el escritorio.
+Paso 1. Abrir la carpeta llamada `Casos de Estudio` ubicada en el escritorio.
 
-![imagen resultado](../images/cap2_1.png)
+![imagen resultado](../images/updte_ce_01.png)
 
-Paso 2. Acceder al archivo del caso de estudio llamado `Real time vehicle tracking system - casestudies practica1.pdf` y analizarlo.
+Paso 2. Ingresar a la carpeta `Lab 02 – Fundamentos de Programacion Segura`.
 
-![imagen resultado](../images/cap2_2.png)
+![imagen resultado](../images/updte_ce_02.png)
+
+Paso 3. Abrir el archivo del caso de estudio llamado `caso de estudio capitulo 2.pdf`, leerlo, analizar su arquitectura, componentes, codigos y resultados.
+
+![imagen resultado](../images/updte_ce_03.png)
 
 ### Tarea 2. Aplicacion de metodologia DREAD
 
-Paso 3. Abrir el archivo `Herramienta de Análisis de Riesgos practica1.xls` y completar la hoja de calculo usando la metodologia DREAD.
+Paso 4. Abrir el archivo `Herramienta de Análisis de Riesgos.xls`, y en base al análisis realizado anteriormente, completar la hoja de calculo usando la metodologia DREAD.
 
-![imagen resultado](../images/cap2_3.png)
+![imagen resultado](../images/updte_ce_04.png)
 
 ### Resultado esperado
 
