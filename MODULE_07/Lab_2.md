@@ -30,11 +30,11 @@ Serás redirigido a la página de inicio de sesión.
 1. Ve al navegador **Chrome**.  
 2. Haz clic en el ícono **EditThisCookie**.  
 
-![imagen resultado](../images/mod7-lab2-1.png)
+![imagen resultado](../ImagesLabs/mod7-lab2-1.png)
 
 3. Busca la cookie con el nombre **JSESSIONID** y copia su valor en un archivo de **Notepad**.  
 
-![imagen resultado](../images/mod7-lab2-2.png)
+![imagen resultado](../ImagesLabs/mod7-lab2-2.png)
 
 ---
 
@@ -42,7 +42,7 @@ Serás redirigido a la página de inicio de sesión.
 1. Ve al navegador **Firefox**.  
 2. Haz clic derecho en el navegador y selecciona **Inspect Element**.  
 
-![imagen resultado](../images/mod7-lab2-3.png)
+![imagen resultado](../ImagesLabs/mod7-lab2-3.png)
 
 ---
 
@@ -50,7 +50,7 @@ Serás redirigido a la página de inicio de sesión.
 1. Ve a la pestaña **Storage**.  
 2. Ve a `Cookies` y selecciona `http://localhost:8080` en la sección de cookies.  
 
-![imagen resultado](../images/mod7-lab2-4.png)
+![imagen resultado](../ImagesLabs/mod7-lab2-4.png)
 
 ---
 
@@ -59,7 +59,7 @@ Serás redirigido a la página de inicio de sesión.
 Para editar la cookie, dar doble click en el valor actual, para luego pegar el valor de la cookie copiada anteriormente.  
 - **Dominio:** localhost  
 
-![imagen resultado](../images/mod7-lab2-5.png)
+![imagen resultado](../ImagesLabs/mod7-lab2-5.png)
 
 ---
 
@@ -67,7 +67,7 @@ Para editar la cookie, dar doble click en el valor actual, para luego pegar el v
 Abrea una nueva pestaña en Firefok y accede a la URL `http://localhost:8080/Mod7Lab2/userfiles/index.jsp`.  
 - **Resultado:** Podrás copiar la sesión activa de Chrome y acceder a la página de inicio como usuario autenticado.  
 
-![imagen resultado](../images/mod7-lab2-6.png)
+![imagen resultado](../ImagesLabs/mod7-lab2-6.png)
 
 - **Problema:** El **MaxAge** de la cookie está configurado con un valor muy alto, lo que permite a los atacantes suficiente tiempo para copiar sesiones válidas.  
 - Para confirmar esta vulnerabilidad:  
