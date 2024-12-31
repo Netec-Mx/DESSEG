@@ -1,7 +1,7 @@
 ## Índice:
 
 - **Module_04**<br>
-    - [Preventing Applications from SQL Injection Attack](./Module_04/Lab_1.md)
+    - [Preventing Applications from SQL Injection Attack](./MODULE_04/Lab_1.md)
     - [Preventing Applications from Cross-site scripting (XSS) Attack](./MODULE_04/Lab_2.md)
     - [Examining the Importance of Whitelist-based Input Validation](./MODULE_04/Lab_3.md)
     - [Examining the Importance of Server-side Input Validation](./MODULE_04/Lab_4.md)
