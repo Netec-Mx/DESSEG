@@ -24,7 +24,7 @@ Resultado:
 Ve a la pestaña `FetchMatching.jsp`, línea n.º 26.
 Verás que no se realiza ninguna codificación de salida antes de renderizar los datos.
 
-![imagen resultado](../images/img17.png)
+![imagen resultado](.../images/img17.png)
 
 Paso 3. Haz clic en el botón OK del mensaje emergente mostrado.
 
