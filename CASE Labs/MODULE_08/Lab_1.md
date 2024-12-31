@@ -51,7 +51,7 @@ try {
 }
 %>
 ```  
-![imagen resultado](../images/mod8-lab1-2.png)
+![imagen resultado](./images/mod8-lab1-2.png)
 
 **Paso 6:**  
 Haz clic en el botón **Save** en la parte superior del editor para guardar los cambios.  
@@ -60,7 +60,7 @@ Haz clic en el botón **Save** en la parte superior del editor para guardar los 
 Repite los pasos 1 y 4.  
 - **Resultado:** Esta vez verás el mensaje: **"Please Enter valid Number Back..!"**  
 
-![imagen resultado](../images/mod8-lab1-3.png)
+![imagen resultado](./images/mod8-lab1-3.png)
 
 **Paso 8:**  
 Haz clic en el botón **Reset** para restaurar el laboratorio al estado anterior y selecciona **OK** en el mensaje emergente que indica **"Reset Successful!"**.  
