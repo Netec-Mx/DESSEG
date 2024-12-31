@@ -23,7 +23,7 @@ Haz clic en **Back**.
 Haz clic nuevamente en el menú **Blog**. Esta vez, ingresa un valor inválido, como **-1**, en el cuadro de texto **"Enter No. of copies to Print"** y haz clic en el botón **"print"**.  
 - **Resultado:** Verás un error de **StackOverFlowError**. Esto ocurre debido a una recursión infinita, lo que puede dar lugar a un ataque de Denegación de Servicio (DoS).  
 
-![imagen resultado](../images/mod8-lab1-1.png)
+![imagen resultado](../ImagesLabs/mod8-lab1-1.png)
 
 **Confirmación de la vulnerabilidad de recursión infinita:**  
 Ve a la pestaña **Print.jsp**, línea n.º **13**. Allí notarás que:  
@@ -51,7 +51,7 @@ try {
 }
 %>
 ```  
-![imagen resultado](../images/mod8-lab1-2.png)
+![imagen resultado](../ImagesLabs/mod8-lab1-2.png)
 
 **Paso 6:**  
 Haz clic en el botón **Save** en la parte superior del editor para guardar los cambios.  
@@ -60,7 +60,7 @@ Haz clic en el botón **Save** en la parte superior del editor para guardar los 
 Repite los pasos 1 y 4.  
 - **Resultado:** Esta vez verás el mensaje: **"Please Enter valid Number Back..!"**  
 
-![imagen resultado](../images/mod8-lab1-3.png)
+![imagen resultado](../ImagesLabs/mod8-lab1-3.png)
 
 **Paso 8:**  
 Haz clic en el botón **Reset** para restaurar el laboratorio al estado anterior y selecciona **OK** en el mensaje emergente que indica **"Reset Successful!"**.  
