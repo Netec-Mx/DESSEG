@@ -32,8 +32,8 @@ Paso 5. Abre **Firefox**, pega la dirección del enlace del botón CONTINUE LOGI
 
 Ve a la pestaña `CheckLogin.jsp`, línea n.º 50.
 
-![imagen resultado](../images/img4.png)
-![imagen resultado](../images/img5.png)
+![imagen resultado](../ImagesLabs/img4.png)
+![imagen resultado](../ImagesLabs/img5.png)
 
 Notarás que el nombre de usuario y la contraseña se añaden a la URL como una cadena de consulta (querystring).
 
@@ -46,11 +46,11 @@ Ve a la línea n.º 49 en CheckLogin.jsp e inserta el siguiente código:
     session.setAttribute("pwd", pwd);
     session.setAttribute("user", user);
 
-![imagen resultado](../images/img6.png)
+![imagen resultado](../ImagesLabs/img6.png)
 
 Paso 6. Ahora, ve a la pestaña Home.jsp y reemplaza las líneas n.º 32-43
 
-![imagen resultado](../images/img6_2.png)
+![imagen resultado](../ImagesLabs/img6_2.png)
 
 Con el siguiente código:
 
@@ -64,7 +64,7 @@ Con el siguiente código:
         response.sendRedirect("Login.jsp");
     }
 
-![imagen resultado](../images/img7.png)
+![imagen resultado](../ImagesLabs/img7.png)
 
 Paso 7. Haz clic en el botón `Save` en la parte superior del editor para guardar los cambios.
 
