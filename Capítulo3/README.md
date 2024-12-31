@@ -4,7 +4,7 @@
 
 Al finalizar la práctica, serás capaz de:
 
-- Comprender y aplicar técnicas de análisis estático de seguridad (SAST) utilizando VisualCodeGrepper.
+- Comprender y aplicar técnicas de análisis estático de seguridad (SAST) utilizando _VisualCodeGrepper_.
 - Instalar y configurar Burp Suite junto con el navegador para realizar pruebas de seguridad.
 - Utilizar Burp Suite para realizar análisis dinámico de seguridad (DAST) en aplicaciones de prueba como Mutillidae, identificando vulnerabilidades en la aplicación de destino.
 
@@ -15,6 +15,12 @@ Al finalizar la práctica, serás capaz de:
 ## Duración aproximada:
 
 - 60 minutos.
+
+## Tabla de ayuda:
+
+| Enlace |
+| --- |
+| [CaseLabs](./CASE Labs) |
 
 ## Instrucciones:
 
@@ -132,7 +138,7 @@ Paso 26. Burp Suite intercepta la solicitud que contiene un nombre de archivo de
 
 ![cap3](../images/cap3_25.png)
 
-Paso 27. Para detectar si la aplicación tiene la vulnerabilidad de referencia de objeto indirecto, en Burp Suite. Editar la referencia del archivo de texto existente cambiándolo por `index.php` y hacer clic en `Forward`.
+Paso 27. Para detectar si la aplicación tiene la vulnerabilidad de referencia de objeto indirecto, en Burp Suite, edita la referencia del archivo de texto existente intercambiándolo por `index.php` y haz clic en `Forward`.
 
 ![cap3](../images/cap3_26.png)
 
@@ -159,66 +165,66 @@ Paso 32. Esto activa una excepción que revela información sobre la estructura 
 ![cap3](../images/cap3_31.png)
 ![cap3](../images/cap3_32.png)
 
-Paso 33. Ahora construir la consulta de inyección SQL de tal manera que la base de datos subyacente siempre se devuelva como verdadera después de la ejecución. Para ello, ingrese la siguiente declaración SQL (sin ningún espacio) en el nombre de usuario y luego hacer clic al `Login`: `'or '1'='1'#`
+Paso 33. Ahora, construye la consulta de inyección SQL de tal manera que la base de datos subyacente siempre se devuelva como verdadera después de la ejecución. Para ello, ingresa la siguiente declaración SQL (sin ningún espacio) en el nombre de usuario y haz clic al `Login`: `'or '1'='1'#`.
 
 ![cap3](../images/cap3_33.png)
 
-### Tarea 5. Verificar ataques de fuerza bruta
+### Tarea 5. Verificar ataques de fuerza bruta.
 
-Paso 34. Para demostrar la detección de la vulnerabilidad de secuencias de comandos entre sitios, seleccionar `OWASP 2013` -> `A2 Autenticación rota y gestión de sesiones` -> `Omisión de autenticación` -> `Mediante fuerza bruta` -> `Login`
+Paso 34. Para demostrar la detección de la vulnerabilidad de secuencias de comandos entre sitios, selecciona: `OWASP 2013` > `A2 Autenticación rota y gestión de sesiones` > `Omisión de autenticación` > `Mediante fuerza bruta` > `Login`.
 
 ![cap3](../images/cap3_34.png)
 
-Paso 35. Seleccionar `Logout`
+Paso 35. Selecciona `Logout.
 
 ![cap3](../images/cap3_35.png)
 
-Paso 36. Activar la intercepción en Burp Suite
+Paso 36. Activa la intercepción en Burp Suite.
 
 ![cap3](../images/cap3_36.png)
 
-Paso 37. En el nombre de usuario colocar `Administrator` y en la contraseña colocar `password123` y dar clic en Login. Esta contraseña es incorrecta y fue proporcionada intencionalmente para `Administrator` como nombre de usuario.
+Paso 37. En el nombre de usuario, coloca: `Administrator` y en la contraseña: `password123` y da clic en **Login**. Esta contraseña es incorrecta y fue proporcionada intencionalmente para `Administrator` como nombre de usuario.
 
 ![cap3](../images/cap3_37.png)
 
-Paso 38. En la respuesta intereceptada en Burp Suite, dar clic derecho y seleccionar `Send to Intruder`
+Paso 38. En la respuesta intereceptada en Burp Suite, da clic derecho y selecciona `Send to Intruder`.
 
 ![cap3](../images/cap3_38.png)
 
-Paso 39. Ir a la sección de `Intruder` y seleccionar `Clear §`
+Paso 39. Dirígete a la sección de `Intruder` y selecciona `Clear §`.
 
 ![cap3](../images/cap3_39.png)
 
-Paso 40. Cambiar el tipo de ataque por `Cluster Bomb`
+Paso 40. Cambia el tipo de ataque por `Cluster Bomb`.
 
 ![cap3](../images/cap3_40.png)
 
-Paso 41. Seleccionar `Administrator` y dar clic en `Add §`, y hacer lo mismo con `password123`
+Paso 41. Selecciona `Administrator` y da clic en `Add §`. Posteriormente, haz lo mismo con `password123`.
 
 ![cap3](../images/cap3_41.png)
 
-Paso 42. Ir a la pestana `Payloads` y seleccionar que `Payload position` se encuentre en 1.
+Paso 42. Dirígete a la pestaña `Payloads` y selecciona que `Payload position` se encuentre en 1.
 
 ![cap3](../images/cap3_42.png)
 
-Paso 43. En la sección de `Payload configuration`, escribir  los posibles nombres para el administrador y presionar `Enter` en su teclado, estos son `Admin` y `Administrator`. 
+Paso 43. En la sección de `Payload configuration`, escribe  los posibles nombres para el administrador y presiona `Enter` en el teclado; estos son `Admin` y `Administrator`. 
 
 ![cap3](../images/cap3_43.png)
 ![cap3](../images/cap3_44.png)
 
-Paso 44. Cambiar el `Payload position` para que se encuentre en 2 y en la sección de `Payload configuration`, escribir posibles contraseñas: `test123` y `test@123`, `password123`. 
+Paso 44. Cambia el `Payload position` para que se encuentre en 2 y en la sección de `Payload configuration`, escribe las posibles contraseñas: `test123`, `test@123` y `password123`. 
 
 ![cap3](../images/cap3_45.png)
 
-Paso 45. Ir a la pestana de `Settings` y la sección `Grep - Match`, dar clic en `Clear` para limpiar la lista de campos existentes.
+Paso 45. Dirígete a la pestaña de `Settings` y la sección `Grep - Match`, da clic en `Clear` para limpiar la lista de campos existentes.
 
 ![cap3](../images/cap3_46.png)
 
-Paso 46. Escribir `Incorrect` y dar clic en `Add`
+Paso 46. Escribe `Incorrect` y haz clic en `Add`.
 
 ![cap3](../images/cap3_47.png)
 
-Paso 47. Seleccionar `Start Attack`
+Paso 47. Selecciona `Start Attack`.
 
 ![cap3](../images/cap3_48.png)
 
@@ -226,15 +232,15 @@ Paso 48. De todos los resultados mostrados, el único que no tiene una respuesta
 
 ![cap3](../images/cap3_49.png)
 
-Paso 49. Finalmente, apague la intercepción en Burp Suite 
+Paso 49. Finalmente, apaga la intercepción en Burp Suite.
 
 ![cap3](../images/cap3_50.png)
 
-Paso 50. Intente iniciar sesión con el nombre de usuario identificado (`Administrator`) y la contraseña (`test@123`).
+Paso 50. Intenta iniciar sesión con el nombre de usuario identificado (`Administrator`) y la contraseña (`test@123`).
 
 ![cap3](../images/cap3_51.png)
 
-### Resultado esperado
+### Resultado esperado:
 
 #### Tarea 1.
 
