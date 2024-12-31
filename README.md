@@ -23,3 +23,6 @@ En este curso se presentan las mejores prácticas de seguridad para las fases m�
  
 - **Capítulo 7**<br>
   - [Laboratorio: Jailbreaking a un modelo largo del lenguaje](./Capítulo7/README.md)
+ 
+- **Case Labs**<br>
+  - [Índice](./README_Labs.md)
