@@ -31,7 +31,7 @@ Ingresa lo siguiente en el cuadro de texto **Message** y haz clic en el botón *
 - **Resultado:** Aparecerá un mensaje emergente mostrando las cookies. Esto demuestra que las cookies pueden ser robadas utilizando un ataque de **XSS basado en DOM**.  
 - Las cookies robadas podrían usarse para realizar un **ataque de secuestro de sesión (session hijacking)**.  
 
-![imagen resultado](../images/mod7-lab1-1.png)
+![imagen resultado](../ImagesLabs/mod7-lab1-1.png)
 
 - **Razón de la vulnerabilidad:**  
    - Las cookies son accesibles mediante scripts del lado del cliente.  
@@ -63,7 +63,7 @@ Haz clic en el botón **Save** en la parte superior del editor para guardar los 
 Repite los pasos del **1 al 3** e intenta nuevamente acceder a las cookies del documento.  
 - **Resultado:** Esta vez no podrás ver las cookies creadas en la ventana emergente, ya que las cookies creadas ya no son accesibles mediante scripts del lado del cliente.  
 
-![imagen resultado](../images/mod7-lab1-2.png)
+![imagen resultado](../ImagesLabs/mod7-lab1-2.png)
 
 Esto demuestra que puedes restringir el acceso a las cookies de la aplicación desde scripts del lado del cliente.  
 
