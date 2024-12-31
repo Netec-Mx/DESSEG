@@ -41,7 +41,7 @@ Paso 4. Para prevenir la inyección SQL, ve a la pestaña `LoginController.jsp`,
     ps.setString(2, pwd);
     ResultSet rs = ps.executeQuery();
 
-![imagen resultado](../images/img16.png)
+![imagen resultado](../ImagesLabs/img16.png)
 
 Paso 5. Haz clic en el botón `Save` en la parte superior del editor para guardar los cambios.
 
