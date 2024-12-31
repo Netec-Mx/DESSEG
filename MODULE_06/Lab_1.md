@@ -21,7 +21,7 @@ Paso 2. Rellena el formulario de registro y haz clic en el botón `SUBMIT`.
 
 - Ve a la pestaña BackendReg.jsp, línea n.º 101.
 
-![imagen resultado](../images/img8.png)
+![imagen resultado](../ImagesLabs/img8.png)
 
 - Verás que la aplicación implementa el algoritmo de hashing MD5 para generar un hash de la contraseña.
 
@@ -34,7 +34,7 @@ Paso 4. Intenta acceder a los detalles del cliente mediante una inyección SQL. 
     
     'union select USERNAME,FNAME+LNAME,PASSWORD, 1 from CUSTOMERLIST order by DESCRIPTION --
     
-![imagen resultado](../images/img9.png)
+![imagen resultado](../ImagesLabs/img9.png)
 
 Paso 5. Haz clic en el botón `Get Transactions`.
 
@@ -79,13 +79,13 @@ Para implementar salting, ve a la pestaña `BackendReg.jsp` y crea la siguiente 
     }
     %>
 
-![imagen resultado](../images/img10.png)
+![imagen resultado](../ImagesLabs/img10.png)
 
 Paso 7. Reemplaza la línea n.º 69 con el siguiente código:
 
     ps1.setString(7, securePassword);
 
-![imagen resultado](../images/img11.png)
+![imagen resultado](../ImagesLabs/img11.png)
 
 Paso 8. Reemplaza las líneas n.º 56 a 59 con el siguiente código:
 
@@ -94,7 +94,7 @@ Paso 8. Reemplaza las líneas n.º 56 a 59 con el siguiente código:
     String simplePassword = SimpleGeneratedPassword(upassword);
     String securePassword = getSecurePassword(upassword, salt);
 
-![imagen resultado](../images/img12.png)
+![imagen resultado](../ImagesLabs/img12.png)
 
 Paso 9. Haz clic en el botón `Save` en la parte superior del editor para guardar los cambios.
 
