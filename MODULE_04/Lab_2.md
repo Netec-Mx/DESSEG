@@ -39,7 +39,7 @@ Paso 6. Intenta ejecutar el ataque XSS nuevamente siguiendo los pasos 1 y 2.
 Resultado:
 - Esta vez, el JavaScript no se ejecutará. Esto se debe a que la aplicación utiliza codificación de salida antes de renderizar los datos.
 
-![imagen resultado](../images/img18.png)
+![imagen resultado](../ImagesLabs/img18.png)
 
 - La codificación de salida evita que la aplicación sea vulnerable a ataques XSS.
 
