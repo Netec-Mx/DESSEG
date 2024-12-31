@@ -31,7 +31,7 @@ Resultado:
 
 - Encontrarás el uso de una consulta SQL no parametrizada.
 
-![imagen resultado](../CASELabs/Images/img15.png)
+![imagen resultado](.../CASELabs/Images/img15.png)
 
 Paso 4. Para prevenir la inyección SQL, ve a la pestaña `LoginController.jsp`, líneas n.º 21-23, y reemplaza la consulta SQL no parametrizada con la siguiente consulta SQL parametrizada:
 
