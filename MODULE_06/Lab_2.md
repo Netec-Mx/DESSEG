@@ -22,7 +22,7 @@ Paso 3. Para agregar el producto `macbook2018series` al carrito, haz clic en el 
 - Resultado: Serás redirigido a la página de Checkout. Los detalles del producto seleccionado se envían en la cadena de consulta (querystring) como texto sin cifrar.
 - Esto implica que la aplicación está exponiendo datos sensibles a través de la URL.
 
-![imagen resultado](../images/img13.png)
+![imagen resultado](../ImagesLabs/img13.png)
 
 
 **Confirmación del uso de cadenas de consulta para enviar datos sensibles:**
@@ -72,7 +72,7 @@ Paso 7. Inicia sesión nuevamente como se indica en el `Paso 1` y agrega el prod
 Resultado: 
 - Esta vez verás que la URL está cifrada y, por lo tanto, está protegida contra ataques como Man-in-the-Middle y fijación de sesión (session fixation).
 
-![imagen resultado](../images/img14.png)
+![imagen resultado](../ImagesLabs/img14.png)
 
 Paso 8. Haz clic en el botón `Reset` para restaurar el laboratorio al estado anterior y haz clic en `OK` en el mensaje emergente que indica `¡Restablecimiento exitoso!`.
 
