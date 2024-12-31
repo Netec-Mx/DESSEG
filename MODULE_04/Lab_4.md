@@ -34,19 +34,19 @@ Copia el enlace del formulario y pégalo en Firefox
 
 Deshabilita JavaScript en el navegador para comprobar cómo un atacante podría eludir la validación del lado del cliente abriendo una nueva pestaña y colocando `about:config` en la barra direcciones. 
 
-![imagen resultado](../images/mod4-lab4-1.png)
+![imagen resultado](../ImagesLabs/mod4-lab4-1.png)
 
 Dar clic en `Accept the Risk and Continue`.
 
-![imagen resultado](../images/mod4-lab4-2.png)
+![imagen resultado](../ImagesLabs/mod4-lab4-2.png)
 
 En la barra de búsqueda, colocar `javascript.enabled`.
 
-![imagen resultado](../images/mod4-lab4-3.png)
+![imagen resultado](../ImagesLabs/mod4-lab4-3.png)
 
 Dar clic en el boton de alternan (encerrado en cuadrado rojo) para que el valor cambie a `false`.
 
-![imagen resultado](../images/mod4-lab4-4.png)
+![imagen resultado](../ImagesLabs/mod4-lab4-4.png)
 
 **Paso 5:**
 
@@ -55,7 +55,7 @@ Con JavaScript deshabilitado y sin colocar ningún dato adicional, haz clic en e
   
 - **Resultado:** Aparecerá el mensaje **"Registration Successfully Completed..!"**. Este mensaje indica que la validación del lado del cliente puede ser eludida al deshabilitar JavaScript.  
 
-![imagen resultado](../images/mod4-lab4-5.png)
+![imagen resultado](../ImagesLabs/mod4-lab4-5.png)
 
 **Conclusión:**  
 La validación de entrada debe realizarse siempre del lado del servidor, ya que las validaciones del lado del servidor son más confiables que las del lado del cliente.  
@@ -104,7 +104,7 @@ Haz clic en **Register**, y pega este nuevo formulario en Firefox con JavaScript
 
 - **Resultado:** Esta vez, la página implementará validación del lado del servidor y mostrará un mensaje apropiado. Esto demuestra que la validación del lado del servidor es más confiable que la del lado del cliente.  
 
-![imagen resultado](../images/mod4-lab4-6.png)
+![imagen resultado](../ImagesLabs/mod4-lab4-6.png)
 
 **Paso 10:**  
 Vuelve a habilitar JavaScript antes de pasar al siguiente laboratorio.  
