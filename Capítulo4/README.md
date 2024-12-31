@@ -1,4 +1,4 @@
-# **Práctica de Seguridad en Aplicaciones Móviles: Exploración de Vulnerabilidades en Android con BlueStacks y Técnicas de Penetración**
+# **Laboratorio: Seguridad en Aplicaciones Móviles: Exploración de vulnerabilidades en Android con BlueStacks y técnicas de penetración**
 
 ## Objetivo de la práctica:
 
@@ -8,52 +8,53 @@ Al finalizar la práctica, serás capaz de:
 - Identificar y analizar vulnerabilidades de seguridad en la aplicación DIVA, como registros inseguros, hardcoding de credenciales, y fallos en la validación de entradas.
 - Utilizar herramientas de análisis como ADB, `dex2jar` y `jd-gui` para extraer y examinar datos internos que puedan exponer información sensible o accesos no autorizados.
 
-## Objetivo Visual 
+## Objetivo visual:
 
 ![diagrama1](../images/cap4_0.png)
 
 ## Duración aproximada:
+
 - 60 minutos.
 
-## Instrucciones 
+## Instrucciones:
 
-### Tarea 1. Instalacion
+### Tarea 1. Instalación.
 
-Paso 1. Ejecutar el archivo `BlueStacksInstaller_5.21.111.1002_native_dc6b14c4d9f7b1785bcc5c837e88652a_MzsxNSwwOzUsMTsxNSw0OzE1.exe` que se encuentra en la carpeta de archivos del laboratorio 4.
+Paso 1. Ejecuta el archivo `BlueStacksInstaller_5.21.111.1002_native_dc6b14c4d9f7b1785bcc5c837e88652a_MzsxNSwwOzUsMTsxNSw0OzE1.exe`, el cual se encuentra en la carpeta de archivos del laboratorio 4.
 
-Paso 2. Hacer clic `Install now` botón que se muestra a continuación
+Paso 2. Haz clic en `Install now`, botón que se muestra a continuación
 
 ![cap4](../images/cap_0_1.png)
 
-Paso 3. Luego haga clic `I agree` botón que se muestra  a continuación
+Paso 3. Después, haz clic `I agree`, el cual es un botón que se muestra a continuación:
 
 ![cap4](../images/cap_0_2.png)
 
 
-Paso 4. Después de completar la instalación, espere a que se inicie BlueStacks como se muestra a continuación
+Paso 4. Posterior a completar la instalación, espera a que se inicie BlueStacks, tal como puedes observar a continuación:
 
 ![cap4](../images/cap_0_3.png)
 
 
-Paso 5. En el panel derecho, vaya al icono del `Administrador de instancias múltiples`
+Paso 5. En el panel derecho, dirígete al ícono del `Administrador de instancias múltiples`.
 
 ![cap4](../images/cap_0_4.png)
 
-Paso 6. Seleccionar `Stop` en el reproductor de la aplicación BluStacks, haga clic en `Close`
+Paso 6. Selecciona `Stop` en el reproductor de la aplicación BluStacks y haz clic en `Close`.
 
 ![cap4](../images/cap_0_5.png)
 
 
-Paso 7.  Dar clic en `Instance` y luego en `Fresh instance`
+Paso 7. Da clic en `Instance` y, posteriormente, en `Fresh instance`.
 
 ![cap4](../images/cap_0_6.png)
 ![cap4](../images/cap_0_7.png)
 
-Paso 8. EnElija la versión de Android seleccionando la `Nougat 32-bit` y de clic en `Next`.
+Paso 8. Escoge la versión de Android seleccionando la `Nougat 32-bit` y de clic en `Next`.
 
 ![cap4](../images/cap_0_8.png)
 
-Paso 9. en `CPU cores` seleccione `Low(1 Core)`, y en  asignación de memoria seleccione `Standard (2 GB)`, y haga clic en `Download`.
+Paso 9. En `CPU cores`, selecciona `Low(1 Core)` y en  asignación de memoria selecciona `Standard (2 GB)`. Finalmente, haz clic en `Download`.
 
 ![cap4](../images/cap_0_9.png)
 
@@ -61,17 +62,17 @@ Paso 10. Después de completar la descarga seleccione `Start` en la instancia cr
 
 ![cap4](../images/cap_0_10.png)
 
-Paso 11. Borrar la instancia creada por defecto seleccionando el icono de eliminar, y cuando salga una confirmación, haga clic `Delete`.
+Paso 11. Elimina la instancia creada por defecto. Para ello, selecciona el ícono de eliminar y, cuando salga la confirmación, haz clic en `Delete`.
 
 ![cap4](../images/cap_0_11.png)
 
-Paso 12. En el panel derecho, dar clic en el simbolo de Configuracion, luego haga clic en `Phone`, y en `Choose a predefined profile`, seleccione `Samsung Galaxy S10`, y de clic en `Save changes`, para finalmente ir a `Advanced` y habilitar `Android Debug Bridge (ADB)`, y seleccione `Save changes`.
+Paso 12. En el panel derecho, da clic en el símbolo de **Configuración**. Después, haz clic en `Phone` y en `Choose a predefined profile`. Selecciona `Samsung Galaxy S10` y de clic en `Save changes`. Finalmente dirígete a `Advanced` y habilita `Android Debug Bridge (ADB)` para seleccionar `Save changes`.
 
 ![cap4](../images/cap_0_12.png)
 ![cap4](../images/cap_0_13.png)
 ![cap4](../images/cap_0_14.png)
 
-Paso 13. Vaya a la carpeta `C:\ProgramData\BlueStacks_nxt` y abra el archivo `buestacks.conf` con un editor de texto dando clic derecho sobre ese archivo y luego a `Edit with Notepad ++`. Una vez dentro, busque la línea 102 `bst.instance.Nougat32.enable_root_access=”0”` y cambie el valor de `0` a `1`, y guarde los cambios.
+Paso 13. Dirígete a la carpeta `C:\ProgramData\BlueStacks_nxt` y abre el archivo `buestacks.conf` con un editor de texto dando clic derecho sobre ese archivo y luego a `Edit with Notepad ++`. Una vez dentro, busque la línea 102 `bst.instance.Nougat32.enable_root_access=”0”` y cambie el valor de `0` a `1`, y guarde los cambios.
 
 ![cap4](../images/cap_0_15.png)
 ![cap4](../images/cap_0_16.png)
