@@ -41,7 +41,7 @@ Serás redirigido a la página de `Carrito de Compras`. Luego haz clic en el men
 Ve a la pestaña ProdInfo.jsp, línea n.º 85.
 Para prevenir el ataque de omisión de autorización, implementa una verificación de acceso a nivel de funciones adecuada. Ve a la línea n.º 87 en ProdInfo.jsp 
 
-![imagen resultado](../images/img1.png)
+![imagen resultado](../ImagesLabs/img1.png)
 
 
 E inserta las siguientes líneas de código:
@@ -52,11 +52,11 @@ E inserta las siguientes líneas de código:
     response.sendRedirect("Login.jsp");
 }`
 
-![imagen resultado](../images/img2.png)
+![imagen resultado](../ImagesLabs/img2.png)
 
 Paso 6. Haz clic en el botón **Save** en la parte superior del editor para guardar los cambios.
 
-![imagen resultado](../images/img3.png)
+![imagen resultado](../ImagesLabs/img3.png)
 
 Paso 7. Repite los pasos 4 y 5.
 
