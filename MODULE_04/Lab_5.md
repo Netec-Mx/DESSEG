@@ -21,19 +21,19 @@ Haz clic en el enlace **Download Course Details**. Se descargará el archivo **C
 **Paso 3:**  
 Haz clic derecho en el enlace **Download Course Details** y selecciona **Inspect** como se muestra en la figura. Aparecerá la ventana de herramientas para desarrolladores.  
 
-![imagen resultado](../images/mod4-lab5-1.png)
+![imagen resultado](../ImagesLabs/mod4-lab5-1.png)
 
 **Paso 4:**  
 Haz clic derecho en la etiqueta de anclaje `<a>` con el id **Hyperlink1** y selecciona **Edit as HTML** como se muestra en la figura.  
 
-![imagen resultado](../images/mod4-lab5-1.2.png)
+![imagen resultado](../ImagesLabs/mod4-lab5-1.2.png)
 
 **Paso 5:**  
 Reemplaza el atributo `href` de la etiqueta `<a>` con el siguiente valor. Luego, cierra la ventana de herramientas para desarrolladores:  
 ```html
 href="secure.jsp?filename=/WEB-INF/web.xml"
 ```  
-![imagen resultado](../images/mod4-lab5-2.png)
+![imagen resultado](../ImagesLabs/mod4-lab5-2.png)
 
 **Paso 6:**  
 Haz clic nuevamente en el enlace **Download Course Details**.  
@@ -41,7 +41,7 @@ Haz clic nuevamente en el enlace **Download Course Details**.
   - Los archivos almacenados en subdirectorios son vulnerables a ataques de **path traversal**.  
   - Un atacante podría adivinar la URL y acceder a cualquier archivo crítico del directorio web.  
 
-![imagen resultado](../images/mod4-lab5-3.png)
+![imagen resultado](../ImagesLabs/mod4-lab5-3.png)
 
 **Confirmación de la vulnerabilidad de path traversal:**  
 Ve a la pestaña **secure.jsp**, línea n.º **20**. Allí verás que el nombre del archivo (**filename**) se usa directamente para crear la variable de ruta (**PathVariable**).  
@@ -69,7 +69,7 @@ Ahora, intenta nuevamente descargar el archivo **web.xml**, siguiendo los pasos 
 - **Resultado:** Esta vez no podrás descargar el archivo **web.xml**. En su lugar, aparecerá un mensaje:  
 **"You Are Trying to Download Something else...Sorry it is not available..! Click to go back"**  
 
-![imagen resultado](../images/mod4-lab5-4.png)
+![imagen resultado](../ImagesLabs/mod4-lab5-4.png)
 
 **Paso 11:**  
 Haz clic en el botón **Reset** para restaurar el laboratorio al estado anterior y selecciona **OK** en el mensaje emergente que indica **"Reset Successful!"**.  
