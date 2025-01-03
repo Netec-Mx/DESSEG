@@ -63,7 +63,7 @@ Paso 11. Elimina la instancia creada por defecto. Para ello, selecciona el ícon
 
 ![cap4](../images/cap_0_11.png)
 
-Paso 12. En el panel derecho, haz clic en el ícono de **Configuración**. Luego, selecciona ´Phone´ y elige la opción ´Choose a predefined profile´. A continuación, selecciona ´Samsung Galaxy S10´ y haz clic en ´Save changes´. Finalmente, ve a la sección ´Advanced´, habilita la opción ´Android Debug Bridge (ADB)´ y guarda los cambios haciendo clic en ´Save changes´.
+Paso 12. En el panel derecho, haz clic en el ícono de **Configuración**. Luego, selecciona `Phone` y elige la opción `Choose a predefined profile`. A continuación, selecciona `Samsung Galaxy S10` y haz clic en `Save changes`. Finalmente, ve a la sección `Advanced`, habilita la opción `Android Debug Bridge (ADB)` y guarda los cambios haciendo clic en `Save changes`.
 
 ![cap4](../images/cap_0_12.png)
 ![cap4](../images/cap_0_13.png)
@@ -86,7 +86,7 @@ Paso 16. Da clic en `Start`.
 
 ![cap4](../images/cap_0_19.png)
 
-Paso 17. Abre la carpeta ´Lab 04 - Mobile Security´ y extrae el archivo de la aplicación que se utilizará. Para hacerlo, haz clic derecho sobre ´diva-beta.tar.gz´ y selecciona la opción ´Extract files´.
+Paso 17. Abre la carpeta `Lab 04 - Mobile Security` y extrae el archivo de la aplicación que se utilizará. Para hacerlo, haz clic derecho sobre `diva-beta.tar.gz` y selecciona la opción `Extract files`.
 
 ![cap4](../images/cap_0_20.png)
 
@@ -99,163 +99,217 @@ Paso 19. Toca o haz clic en el ícono de la aplicación **DIVA** para iniciarla.
 ![cap4](../images/cap4_20.png)
 ![cap4](../images/cap_0_22.png)
 
-### Tarea 2. ´INSECURE LOGGING´.
+### Tarea 2. `INSECURE LOGGING`.
 
 Paso 20. Abre una terminal y escribe el siguiente comando:
 
-´´´
+```
 adb root
-´´´
+```
 
 ![cap4](../images/cap_0_23.png)
 
-Paso 21. Escribir el comando `adb devices` y verificar que para `emulator-5554` el resultado sea `device`
+Paso 21. Escribe el comando siguiente en la terminal:
+```
+adb devices
+```
+
+Verifica que el resultado correspondiente a `emulator-5554` sea `device`.
 
 ![cap4](../images/cap_0_24.png)
 
-Paso 22. Escribir el comando `adb shell` y luego `su`
+Paso 22. En la terminal, escribe el siguiente comando:
+
+```
+adb shell
+``` 
+
+Luego, ingresa el comando:
+
+```
+su
+```
 
 ![cap4](../images/cap_0_25.png)
 
-Paso 23. Dentro de DIVA, ingresar a `INSECURE LOGGING`
+Paso 23. En la aplicación DIVA, navega a la sección `INSECURE LOGGING`.
 
 ![cap4](../images/cap_0_26.png)
 
-Paso 24. Antes de colocar un numero de tarjeta de crédito ficticio, escribir `logcat` en el símbolo del sistema
+Paso 24. Antes de ingresar un número de tarjeta de crédito ficticio, escribe el comando `logcat` en el símbolo del sistema.
 
 ![cap4](../images/cap_0_27.png)
 
-Paso 25. A continuacion escriba numeros de una tarjeta de credito ficticia
+Paso 25. A continuación, ingresa los números de una tarjeta de crédito ficticia en la aplicación.
 
 ![cap4](../images/cap_0_28.png)
 
-Paso 26. Lo que es capturado por los registros del comando, haciendo que esta sea expuesta
+Paso 26. Lo que es capturado por los registros del comando, haciendo que esta sea expuesta.
 
 ![cap4](../images/cap_0_29.png)
 
-### Tarea 3. HARDCODING ISSUES - PART 1
+### Tarea 3. `HARDCODING ISSUES - PART 1`.
 
-Paso 27. Ahora volver al menu principal de DIVA e ingresar a `HARDCODING ISSUES - PART 1`
+Paso 27. Regresa al menú principal de **DIVA** e ingresa a la sección `HARDCODING ISSUES - PART 1`.
 
 ![cap4](../images/cap_0_30.png)
 
-Paso 28. A continuacion, ir al archivo de la aplicacion `diva-beta.apk`, dar click derecho y luego `Rename` para cambiar esa extension `apk` a `rar`
+Paso 28. A continuación, ve al archivo de la aplicación **diva-beta.apk**, haz clic derecho sobre él y selecciona la opción `Rename`. Cambia la extensión del archivo de `.apk` a `.rar`.
 
 ![cap4](../images/cap_0_31.png)
 
-Paso 29. Aceptar los cambios
+Paso 29. Acepta los cambios realizados. 
 
 ![cap4](../images/cap_0_32.png)
 
-Paso 30. Extraer los archivos
+Paso 30. Extrae los archivos.
 
 ![cap4](../images/cap_0_33.png)
 
-Paso 31. Ingresar a la carpeta extraida y cortar el archivo `classes.dex`
+Paso 31. Accede a la carpeta extraída y corta el archivo `classes.dex`.
 
 ![cap4](../images/cap_0_34.png)
 
-Paso 32. Volver a la carpeta `Lab 04 - Mobile Security` y extraer el archivo `dex2jar-2.0.zip` e ingresar a la carpeta extraida
+Paso 32. Regresa a la carpeta `Lab 04 - Mobile Security`, extrae el archivo `dex2jar-2.0.zip` y accede a la carpeta extraída.
 
 ![cap4](../images/cap_0_35.png)
 
-Paso 33. Dentro de esa carpeta es donde se pegara el archivo `classes.dex`
+Paso 33. Dentro de la carpeta extraída de `dex2jar-2.0`, pega el archivo `classes.dex` que cortaste anteriormente.
 
 ![cap4](../images//cap_0_36.png)
 
-Paso 34. Abrir una nueva terminal e ingresar a la ruta usando el comando `cd` seguido de la ruta donde se pego el archivo; por ejemplo `cd C:\Users\Netec\Desktop\Lab 04 - Mobile Security\dex2jar-2.0`
+Paso 34. Abre una nueva terminal e ingresa a la ruta donde pegaste el archivo classes.dex utilizando el comando cd seguido de la ruta. Por ejemplo, ingresa:
+
+```
+cd C:\Users\Netec\Desktop\Lab 04 - Mobile Security\dex2jar-2.0
+```
 
 ![cap4](../images/cap_0_37.png)
 
-Paso 35. Ejecutar el comando `d2j-dex2jar classes.dex`
+Paso 35. Ejecuta el siguiente comando:
+
+```
+d2j-dex2jar classes.dex
+```
 
 ![cap4](../images/cap_0_38.png)
 
-Paso 36. Ahora vera el archivo `classes-dex2jar.jar`
+Paso 36. Ahora podrás ver el archivo `classes-dex2jar.jar`.
 
 ![cap4](../images/cap_0_39.png)
 
-Paso 37.Abrir `jd-gui`
+Paso 37. Abre `jd-gui`.
 
 ![cap4](../images/cap_0_40.png)
 
-Paso 38. Abrir el archivo que se convirtió anteriormente dentro de la GUI
+Paso 38. Abre el archivo que se convirtió anteriormente dentro de la GUI.
 
 ![cap4](../images/cap_0_41.png)
 ![cap4](../images/cap_0_42.png)
 
-Paso 39. Abrir `jakhar.aseem.diva`
+Paso 39. Abre `jakhar.aseem.diva`.
 
 ![cap4](../images/cap_0_43.png)
 
-Paso 40. Seleccionar `HardcodeActivity.class` y ahi encontrara `vendorsecretkey` y el memsaje `"Access granted! See you von the other side :)"`
+Paso 40. Selecciona `HardcodeActivity.class`. Ahí podrás encontrar la clave `vendorsecretkey` y el mensaje "Access granted! See you on the other side :)".
 
 ![cap4](../images/cap_0_44.png)
 
-Paso 41. Escribir esa contrasena robada en DIVA
+Paso 41. Escribe la contraseña obtenida en DIVA.
 
 ![cap4](../images/cap_0_45.png)
 
-### Tarea 4. INPUT VALIDATION ISSUES – PART 1
+### Tarea 4. `INPUT VALIDATION ISSUES – PART 1`.
 
-Paso 42. Volver a DIVA y abrir el `INPUT VALIDATION ISSUES – PART 1`
+Paso 42. Regresa a **DIVA** y abre la sección `INPUT VALIDATION ISSUES – PART 1`.
 
 ![cap4](../images/cap_0_46.png)
 
-Paso 43. Colocar el comando de ataque `' OR '1' == '1`
+Paso 43. Ingresa el comando de ataque:
+
+```
+' OR '1' == '1
+```
 
 ![cap4](../images/cap_0_47.png)
 
-### Tarea 4. INPUT VALIDATION ISSUES – PART 2
+### Tarea 4. `INPUT VALIDATION ISSUES – PART 2`.
 
-Paso 44. Abrir el `INPUT VALIDATION ISSUES – PART 2`
+Paso 44. Abre la sección `INPUT VALIDATION ISSUES – PART 2`.
 
 ![cap4](../images/cap_0_48.png)
 
-Paso 45. Verificar que se puede acceder a conexiones colocando `https://www.google.com`
+Paso 45. Verifica que puedas acceder a conexiones ingresando `https://www.google.com`.
 
 ![cap4](../images/cap_0_49.png)
 
-Paso 46. Con ello verificado, es posible obtener el contenido del archivo de configuración llamado hosts, que se encuentra en el directorio /etc en sistemas operativos tipo Unix/Linux colocando la ruta `file:////etc/hosts` y dando clic a `VIEW`.
+Paso 46. Una vez verificado el acceso, es posible obtener el contenido del archivo de configuración llamado hosts, el cual se encuentra en el directorio /etc en sistemas operativos tipo Unix/Linux. Para ello, coloca la ruta `file:////etc/hosts` y haz clic en `VIEW`.
 
 ![cap4](../images/cap_0_50.png)
 
-### Tarea 5. ACCESS CONTROL ISSUSES - PART 1
+### Tarea 5. `ACCESS CONTROL ISSUSES - PART 1`.
 
-Paso 47. En DIVA ingresar a `ACCESS CONTROL ISSUSES - PART 1`
+Paso 47. En **DIVA**, ingresa a la sección `ACCESS CONTROL ISSUES – PART 1`.
 
 ![cap4](../images/cap_0_51.png)
 
-Paso 48. Abrir una nueva terminal y escribir el comando `adb root`
+Paso 48. Abre una nueva terminal y escribe el siguiente comando:
+```
+adb root
+```
 
 ![cap4](../images/cap_0_23.png)
 
-Paso 49. Escribir el comando `adb devices` y verificar que para `emulator-5554` el resultado sea `device`
+Paso 49. Escribe el comando 
+
+```
+adb devices
+```
+
+Verifica que el resultado correspondiente a `emulator-5554` sea `device`.
 
 ![cap4](../images/cap_0_24.png)
 
-Paso 50. Escribir el comando `adb shell` y luego `su`
+Paso 50. Escribe el siguiente comando:
+
+```
+adb shell
+``` 
+
+Luego, ingresa el siguiente comando:
+
+```
+su
+```
 
 ![cap4](../images/cap_0_25.png)
 
-Paso 51. Ejecutra el comando `logcat` en el símbolo del sistema
+Paso 51. Ejecuta el siguiente comando en el símbolo del sistema:
+
+```
+logcat
+```
 
 ![cap4](../images/cap_0_27.png)
 
-Paso 52. En DIVA dar clic `VIEW API CREDENTIALS`
+Paso 52. En **DIVA**, haz clic en `VIEW API CREDENTIALS`.
 
 ![cap4](../images/cap_0_52.png)
 
-Paso 53. Y se vera la credencial de la API tanto en la aplicacion (proceso legal), y en la consola de comandos el nombre de la actividad.
+Paso 53. Verás la credencial de la API tanto en la aplicación (proceso legal) como en la consola de comandos, donde aparecerá el nombre de la actividad.
 
 ![cap4](../images/cap_0_54.png)
 ![cap4](../images/cap_0_53.png)
 
-Paso 54. Y finalmente para ver la informacion, abrir una nueva terminal y ejecutar `adb shell am start -n jakhar.aseem.diva/.APICredsActivity`
+Paso 54. Finalmente, abre una nueva terminal y ejecuta el siguiente comando para ver la información:
+
+```
+adb shell am start -n jakhar.aseem.diva/.APICredsActivity
+```
 
 ![cap4](../images/cap_0_55.png)
 
-### Resultado esperado:
+## Resultado esperado:
 
 #### Tarea 2.
 
