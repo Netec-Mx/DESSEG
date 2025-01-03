@@ -28,3 +28,13 @@ En este curso se presentan las mejores prácticas de seguridad para las fases m�
  
 - **Case Labs**<br>
   - [Índice](./README_Labs.md)
+
+---
+
+## 📬 **Contacto y más información**
+
+Si tienes alguna pregunta o necesitas más detalles, no dudes en [contactarnos](mailto:soporte@netec.com). De igual forma, puedes encontrar más recursos en nuestra [página de recursos](https://netec.com).
+
+---
+
+¡Gracias por visitar nuestra plataforma! No olvides revisar todos los laboratorios y comenzar tu viaje de aprendizaje hoy mismo.
