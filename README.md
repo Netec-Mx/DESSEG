@@ -1,6 +1,6 @@
 # ![Logo](images/neteclogo.png) 
 
-# Nombre del curso: Desarrollo Seguro
+# Desarrollo Seguro
 
 ## Descripción del curso
 
