@@ -37,4 +37,5 @@ Paso 4. Abre el archivo `Herramienta de Análisis de Riesgos.xls` y, con base en
 ![imagen resultado](../images/cap2_4.png)
 
 ---
-### Para regresar al índice general, da clic [aquí](./README.md).
+
+#### Para regresar al índice general, da clic [aquí](./README.md).
