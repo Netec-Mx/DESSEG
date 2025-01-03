@@ -258,3 +258,6 @@ Paso 50. Intenta iniciar sesión con el nombre de usuario identificado (`Adminis
 
 ![cap3](../images/cap3_51.png)
 
+---
+
+#### Para regresar al índice general, da clic [aquí](./README.md).
