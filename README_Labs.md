@@ -19,3 +19,13 @@
     - [Preventing Applications fronm Session Attacks by Avoding Overly Long Sessions](./MODULE_07/Lab_2.md)
 - **Module_08**<br>
     - [Preventing Applications from Deniel-Of-Service (DOS) Attacks](./MODULE_08/Lab_1.md)
+
+---
+
+## 📬 **Contacto y más información**
+
+Si tienes alguna pregunta o necesitas más detalles, no dudes en [contactarnos](mailto:soporte@netec.com). De igual forma, puedes encontrar más recursos en nuestra [página de recursos](https://netec.com).
+
+---
+
+¡Gracias por visitar nuestra plataforma! No olvides revisar todos los laboratorios y comenzar tu viaje de aprendizaje hoy mismo.
