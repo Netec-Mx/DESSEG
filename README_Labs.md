@@ -1,4 +1,4 @@
-# ![Logo](../images/neteclogo.png)
+# ![Logo](./images/neteclogo.png)
 
 ## Índice:
 
