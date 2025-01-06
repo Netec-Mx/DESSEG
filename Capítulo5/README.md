@@ -1,27 +1,29 @@
-# **Práctica de Seguridad en Aplicaciones Web: Uso de Postman y Burp Suite para Pruebas de Vulnerabilidades** 
+# **Laboratorio: Seguridad en Aplicaciones Web: Uso de Postman y Burp Suite para pruebas de vulnerabilidades** 
 
 ## Objetivo de la práctica:
 
 Al finalizar la práctica, serás capaz de:
 
-- Utilizar Postman para crear cuentas, configurar ambientes de pruebas, y manipular variables para simular interacciones en un entorno web.
-- Realizar acciones de prueba de seguridad en aplicaciones web, incluyendo la escalación de privilegios, eliminación de comentarios, y ataques de fuerza bruta con Burp Suite para identificar y explotar vulnerabilidades.
+- Utilizar Postman para crear cuentas, configurar ambientes de pruebas y manipular variables para simular interacciones en un entorno web.
+- Realizar acciones de prueba de seguridad en aplicaciones web, incluyendo la escalación de privilegios, eliminación de comentarios y ataques de fuerza bruta con Burp Suite para identificar y explotar vulnerabilidades.
 
-## Objetivo Visual 
+## Objetivo visual: 
 
 ![diagrama1](../images/cap5_0.png)
 
 ## Duración aproximada:
+
 - 60 minutos.
 
-## Instrucciones 
+## Instrucciones:
 
-### Tarea 1. Configuracion
-Paso 1. Dar doble clic al logo de `Docker` que se encuentra en la barra de tareas
+### Tarea 1. Configuración.
+
+Paso 1. Da doble clic en el ícono de **Docker** que se encuentra en la barra de tareas para abrir la aplicación.
 
 ![cap5](../images/cap5_1.png)
 
-Paso 2. En la seccion de `Actions`, dar clic al boton que se indica para activar esos contenedores
+Paso 2. En la sección de **Actions**, haz clic en el botón indicado para activar los contenedores.
 
 ![cap5](../images/cap5_2.png)
 
@@ -196,11 +198,11 @@ Paso 39. Cambiar `Bind to port` a `8081`, y en `Specific address` desplegar su b
 
 ![cap5](../images/cap5_39.png)
 
-Paso 40. Dar clic en el recuadro debajo de `Running` para que el puerto se active y cerrar la configuracion 
+Paso 40. Dar clic en el recuadro debajo de `Running` para que el puerto se active y cerrar la configuración 
 
 ![cap5](../images/cap5_40.png)
 
-Paso 41. Ir a Postman y dar clic al icono de configuracion para luego dar clic a `Settings`
+Paso 41. Ir a Postman y dar clic al icono de configuración para luego dar clic a `Settings`
 
 ![cap5](../images/cap5_41.png)
 
@@ -261,3 +263,7 @@ Paso 52. Al revisarlo, se encontrara con las credenciales de dicho ususario apro
 #### Tarea 4.
 
 ![cap5](../images/cap5_52.png)
+
+---
+
+#### Para regresar al índice general, da clic [aquí](./README.md).
