@@ -1,4 +1,4 @@
-# Laboratorio: Pruebas de seguridad en aplicaciones: SAST y DAST con configuración de Burp Suite
+# **Pruebas de Seguridad en Aplicaciones: SAST y DAST con Configuración de Burp Suite**
 
 ## Objetivo de la práctica:
 
@@ -8,129 +8,123 @@ Al finalizar la práctica, serás capaz de:
 - Instalar y configurar Burp Suite junto con el navegador para realizar pruebas de seguridad.
 - Utilizar Burp Suite para realizar análisis dinámico de seguridad (DAST) en aplicaciones de prueba como Mutillidae, identificando vulnerabilidades en la aplicación de destino.
 
-## Objetivo visual:
+## Objetivo Visual 
 
 ![diagrama1](../images/cap3_0.png)
 
 ## Duración aproximada:
-
 - 60 minutos.
 
-## Tabla de ayuda:
+## Instrucciones 
 
-| Enlace |
-| --- |
-| [CaseLabs](./CASE Labs) |
+### Tarea 1. **Realizar Análisis Estático (SAST)**
+Paso 1. Ingresar al laboratorio ubicado en `CASE Labs` -> `Module 09: Static and Dynamic Application Security Testing` -> `Lab 01: Performing Static Application Security Testing (SAST)`, y descargar la herramienta dando clic en `Tools` y luego a `VisualCodeGrepper` ubicada a la derecha.
 
-## Instrucciones:
-
-### Tarea 1. Realizar el Análisis Estático (SAST).
-
-Paso 1. Descarga la herramienta que utilizarás. Para ello, abre el archivo `VCG-Setup.msi` ubicada en: `CASE Labs` > `Module 09: Static and Dynamic Application Security Testing` > `Lab 01: Performing Static Application Security Testing (SAST)`.
-
+![cap3](../images/cap3_0_01.png)
+<br><br>
 ![cap3](../images/cap3_0_0.png)
-
 <br><br>
 ![cap3](../images/cap3_0_1.png)
 
-Paso 2. Da clic en `Next`.
+Paso 2. Abrir el archivo descargado, llamado `VCG-Setup.msi`, y dar clic a `Next`.
 
 ![cap3](../images/cap3_1.png)
 ![cap3](../images/cap3_0_2.png)
 
-Paso 3. Haz clic a `Next`.
+Paso 3. Dar clic a `Next`.
 
 ![cap3](../images/cap3_3.png)
 
-Paso 4. Da clic en `Close`.
+Paso 4. Dar clic a `Close`.
 
 ![cap3](../images/cap3_4.png)
 
-Paso 5. Abre la aplicación descargada dando doble clic al ícono.
+Paso 5. Abrir la aplicación descargada dando doble clic al ícono.
 
 ![cap3](../images/cap3_5.png)
 
-Paso 6. Dirígete a la ventana `Settings` y selecciona el lenguaje `Java`.
+Paso 6. Ir a la ventana `Settings` y seleccionar el lenguaje `Java`.
 
 ![cap3](../images/cap3_6.png)
 
-Paso 7. Descarga el archivo con el que trabajarás, el cual tiene como nombre `SampleWebsite.zip`. Posteriormente, descomprímelo en una carpeta con una ruta de fácil acceso (un ejemplo podría ser en la carpeta de **descargas**).
+Paso 7. Dar clic en el archivo a trabajar llamado `SampleWebsite` en la pagina del laboratorio, lo que descargara el archivo  `SampleWebsite.zip`, luego descomprimirlo y colocarlo en una carpeta con una ruta sencilla de acceder (por ejemplo, `descargas`).
 
 ![cap3](../images/cap3_0_3.png)
 
-Paso 8. Selecciona `File` en la barra de menús, y luego haz clic en `New Target Directory`.
+Paso 8. Volver al VCG y seleccionar `File`,en la barra de menús, luego `New Target Directory`.
 
 ![cap3](../images/cap3_7.png)
 
-Paso 9. Selecciona la carpeta descomprimida y da clic en `OK`.
+Paso 9. Seleccionar la carpeta descomprimida y dar clic en `OK`.
 
 ![cap3](../images/cap3_8.png)
 
-Paso 10. Selecciona `Scan`, el cual está ubicado en la barra de menús, y luego haz clic en `Full Scan`.
+Paso 10. Seleccionar `Scan`, ubicado en la barra de menús, y luego `Full Scan`
 
 ![cap3](../images/cap3_9.png)
 
-Paso 11. De esta forma, se obtendrá toda la lista de vulnerabilidades en la pestaña `Results`. Una vez detectadas las vulnerabilidades, cierra la ventana de VCG.
+Paso 11. Y obtenemos toda la lista de vulnerabilidades en la pestaña `Results`. Finalmente, ya detectadas las vulnerabilidades, cierre la ventana de VCG.
 
 ![cap3](../images/cap3_10.png)
+<br>
+<br>
+### Tarea 2. Análisis Dinámico ()
 
-### Tarea 2. Análisis Dinámico ().
-
-Paso 12. Ingresa al siguiente [enlace](https://portswigger.net/burp/communitydownload) y seleccionar `Go straight to downloads`.
+Paso 12. Ingresar al siguiente [enlace](https://portswigger.net/burp/communitydownload) y seleccionar `Go straight to downloads`
 
 ![cap3](../images/cap3_11.png)
 
-Paso 13. Selecciona `Download`.
+Paso 13. Seleccionar `Download`
 
 ![cap3](../images/cap3_12.png)
 
-Paso 14. Abre el archivo descargado.
+Paso 14. Abrir el archivo descargado
 
 ![cap3](../images/cap3_13.png)
 
-Paso 15. Selecciona `Yes, update the existing installation` y luego haz clic en `Next`.
+Paso 15. Seleccionar `Yes, update the existing installation` y luego `Next`
 
 ![cap3](../images/cap3_14.png)
 
-Paso 16. Selecciona `Finish`.
+Paso 16. Seleccionar `Finish`
 
 ![cap3](../images/cap3_15.png)
 
-Paso 17. Desde el menú de inicio, abre `Burp Suite`.
+Paso 17. Desde el menú de inicio, abrir `Burp Suite`
 
 ![cap3](../images/cap3_16.png)
 
-Paso 18. Acepta los términos y condiciones.
+Paso 18. Aceptar los términos y condiciones
 
 ![cap3](../images/cap3_17.png)
 
-Paso 19. Selecciona `Next`.
+Paso 19. Seleccionar `Next`
 
 ![cap3](../images/cap3_18.png)
 
-Paso 20. Selecciona `Start Burp`.
+Paso 20. Seleccionar `Start Burp`
 
 ![cap3](../images/cap3_19.png)
 
-Paso 21. Dirígete a la pestaña “Proxy” y selecciona `Open browser`.
+Paso 21. Ir a la pestaña “Proxy” y seleccionar `Open browser`
 
 ![cap3](../images/cap3_20.png)
 
-Paso 22. Una vez en el nuevo navegador abierto (tiene el logo de Google Chrome, pero ahora es azul), coloca la siguiente dirección de enlace: `127.0.0.1:8181/mutillidae`.
+Paso 22. Una vez en el nuevo navegador abierto (tiene el logo de Google Chrome, pero ahora este es azul), colocar la siguiente dirección de enlace: `127.0.0.1:8181/mutillidae`
 
 ![cap3](../images/cap3_21.png)
 
-### Tarea 3. Verificar referencias inseguras a objetos.
+### Tarea 3. Verificar referencias inseguras a objetos
 
-Paso 23. Para demostrar la detección de la vulnerabilidad de referencias directas a objetos inseguros, selecciona: `OWASP 2013` > `A4 - Referencias directas inseguras a objetos` > `Visor de archivos de texto`.
+Paso 23. Para demostrar la detección de la vulnerabilidad de referencias directas a objetos inseguros, seleccionar `OWASP 2013` -> `A4 - Referencias directas inseguras a objetos` -> `Visor de archivos de texto`
 
 ![cap3](../images/cap3_22.png)
 
-Paso 24. Regresa a Burp Suite y activa la opción de intercepción, ubicada en la pestaña `Proxy`.
+Paso 24. Volver a Burp Suite y activar la opción de intercepción en la pestaña `Proxy`
 
 ![cap3](../images/cap3_23.png)
 
-Paso 25. Dirígete al navegador y selecciona `View File`.
+Paso 25. Ir al navegador y seleccionar `View File`
 
 ![cap3](../images/cap3_24.png)
 
@@ -138,93 +132,93 @@ Paso 26. Burp Suite intercepta la solicitud que contiene un nombre de archivo de
 
 ![cap3](../images/cap3_25.png)
 
-Paso 27. Para detectar si la aplicación tiene la vulnerabilidad de referencia de objeto indirecto, en Burp Suite, edita la referencia del archivo de texto existente intercambiándolo por `index.php` y haz clic en `Forward`.
+Paso 27. Para detectar si la aplicación tiene la vulnerabilidad de referencia de objeto indirecto, en Burp Suite. Editar la referencia del archivo de texto existente cambiándolo por `index.php` y hacer clic en `Forward`.
 
 ![cap3](../images/cap3_26.png)
 
-Paso 28. Regresa al navegador y verifica que la página es vulnerable a referencias de objetos indirectos, haciendo que este expuesto a los usuarios sin ningún otro control de acceso.
+Paso 28. Volver al navegador y verificar que la página es vulnerable a referencias de objetos indirectos, haciendo que este expuesto a los usuarios sin ningún otro control de acceso.
 
 ![cap3](../images/cap3_27.png)
 
-### Tarea 4. Verificar la detección de vulnerabilidad de inyección SQL.
+### Tarea 4. Verificar la detección de vulnerabilidad de inyección SQL
 
-Paso 29. Apaga la intercepción en Burp Suite.
+Paso 29. Apagar la intercepción en Burp Suite
 
 ![cap3](../images/cap3_28.png)
 
-Paso 30. Regresa al navegador y selecciona: `Owasp 2013` > `A1 - Inyeccion SQL` > `SQLi - Omision de autenticacion` > `Login`.
+Paso 30. Volver al navegador y seleccionar `Owasp 2013` -> `A1 - Inyeccion SQL` -> `SQLi - Omision de autenticacion` -> `Login`
 
 ![cap3](../images/cap3_29.png)
 
-Paso 31. En el nombre de usuario, coloca una comilla simple (`'`) y haz clic en `Login`.
+Paso 31. En el nombre de usuario, colocar una comilla simple (`'`) y dar clic  a `Login`
 
 ![cap3](../images/cap3_30.png)
 
-Paso 32. Esto activa una excepción que revela información sobre la estructura interna de la consulta de la base de datos utilizada en la aplicación.
+Paso 32. Ello activa una excepción que revela información acerca de la estructura interna de la consulta de la base de datos utilizada en la aplicación.
 
 ![cap3](../images/cap3_31.png)
 ![cap3](../images/cap3_32.png)
 
-Paso 33. Ahora, construye la consulta de inyección SQL de tal manera que la base de datos subyacente siempre se devuelva como verdadera después de la ejecución. Para ello, ingresa la siguiente declaración SQL (sin ningún espacio) en el nombre de usuario y haz clic al `Login`: `'or '1'='1'#`.
+Paso 33. Ahora construir la consulta de inyección SQL de tal manera que la base de datos subyacente siempre se devuelva como verdadera después de la ejecución. Para ello, ingrese la siguiente declaración SQL (sin ningún espacio) en el nombre de usuario y luego hacer clic al `Login`: `'or '1'='1'#`
 
 ![cap3](../images/cap3_33.png)
 
-### Tarea 5. Verificar ataques de fuerza bruta.
+### Tarea 5. Verificar ataques de fuerza bruta
 
-Paso 34. Para demostrar la detección de la vulnerabilidad de secuencias de comandos entre sitios, selecciona: `OWASP 2013` > `A2 Autenticación rota y gestión de sesiones` > `Omisión de autenticación` > `Mediante fuerza bruta` > `Login`.
+Paso 34. Para demostrar la detección de la vulnerabilidad de secuencias de comandos entre sitios, seleccionar `OWASP 2013` -> `A2 Autenticación rota y gestión de sesiones` -> `Omisión de autenticación` -> `Mediante fuerza bruta` -> `Login`
 
 ![cap3](../images/cap3_34.png)
 
-Paso 35. Selecciona `Logout.
+Paso 35. Seleccionar `Logout`
 
 ![cap3](../images/cap3_35.png)
 
-Paso 36. Activa la intercepción en Burp Suite.
+Paso 36. Activar la intercepción en Burp Suite
 
 ![cap3](../images/cap3_36.png)
 
-Paso 37. En el nombre de usuario, coloca: `Administrator` y en la contraseña: `password123` y da clic en **Login**. Esta contraseña es incorrecta y fue proporcionada intencionalmente para `Administrator` como nombre de usuario.
+Paso 37. En el nombre de usuario colocar `Administrator` y en la contraseña colocar `password123` y dar clic en Login. Esta contraseña es incorrecta y fue proporcionada intencionalmente para `Administrator` como nombre de usuario.
 
 ![cap3](../images/cap3_37.png)
 
-Paso 38. En la respuesta intereceptada en Burp Suite, da clic derecho y selecciona `Send to Intruder`.
+Paso 38. En la respuesta intereceptada en Burp Suite, dar clic derecho y seleccionar `Send to Intruder`
 
 ![cap3](../images/cap3_38.png)
 
-Paso 39. Dirígete a la sección de `Intruder` y selecciona `Clear §`.
+Paso 39. Ir a la sección de `Intruder` y seleccionar `Clear §`
 
 ![cap3](../images/cap3_39.png)
 
-Paso 40. Cambia el tipo de ataque por `Cluster Bomb`.
+Paso 40. Cambiar el tipo de ataque por `Cluster Bomb`
 
 ![cap3](../images/cap3_40.png)
 
-Paso 41. Selecciona `Administrator` y da clic en `Add §`. Posteriormente, haz lo mismo con `password123`.
+Paso 41. Seleccionar `Administrator` y dar clic en `Add §`, y hacer lo mismo con `password123`
 
 ![cap3](../images/cap3_41.png)
 
-Paso 42. Dirígete a la pestaña `Payloads` y selecciona que `Payload position` se encuentre en 1.
+Paso 42. Ir a la pestana `Payloads` y seleccionar que `Payload position` se encuentre en 1.
 
 ![cap3](../images/cap3_42.png)
 
-Paso 43. En la sección de `Payload configuration`, escribe  los posibles nombres para el administrador y presiona `Enter` en el teclado; estos son `Admin` y `Administrator`. 
+Paso 43. En la sección de `Payload configuration`, escribir  los posibles nombres para el administrador y presionar `Enter` en su teclado, estos son `Admin` y `Administrator`. 
 
 ![cap3](../images/cap3_43.png)
 ![cap3](../images/cap3_44.png)
 
-Paso 44. Cambia el `Payload position` para que se encuentre en 2 y en la sección de `Payload configuration`, escribe las posibles contraseñas: `test123`, `test@123` y `password123`. 
+Paso 44. Cambiar el `Payload position` para que se encuentre en 2 y en la sección de `Payload configuration`, escribir posibles contraseñas: `test123` y `test@123`, `password123`. 
 
 ![cap3](../images/cap3_45.png)
 
-Paso 45. Dirígete a la pestaña de `Settings` y la sección `Grep - Match`, da clic en `Clear` para limpiar la lista de campos existentes.
+Paso 45. Ir a la pestana de `Settings` y la sección `Grep - Match`, dar clic en `Clear` para limpiar la lista de campos existentes.
 
 ![cap3](../images/cap3_46.png)
 
-Paso 46. Escribe `Incorrect` y haz clic en `Add`.
+Paso 46. Escribir `Incorrect` y dar clic en `Add`
 
 ![cap3](../images/cap3_47.png)
 
-Paso 47. Selecciona `Start Attack`.
+Paso 47. Seleccionar `Start Attack`
 
 ![cap3](../images/cap3_48.png)
 
@@ -232,15 +226,15 @@ Paso 48. De todos los resultados mostrados, el único que no tiene una respuesta
 
 ![cap3](../images/cap3_49.png)
 
-Paso 49. Finalmente, apaga la intercepción en Burp Suite.
+Paso 49. Finalmente, apague la intercepción en Burp Suite 
 
 ![cap3](../images/cap3_50.png)
 
-Paso 50. Intenta iniciar sesión con el nombre de usuario identificado (`Administrator`) y la contraseña (`test@123`).
+Paso 50. Intente iniciar sesión con el nombre de usuario identificado (`Administrator`) y la contraseña (`test@123`).
 
 ![cap3](../images/cap3_51.png)
 
-### Resultado esperado:
+### Resultado esperado
 
 #### Tarea 1.
 
@@ -258,6 +252,3 @@ Paso 50. Intenta iniciar sesión con el nombre de usuario identificado (`Adminis
 
 ![cap3](../images/cap3_51.png)
 
----
-
-#### Para regresar al índice general, da clic [aquí](./README.md).

@@ -8,9 +8,10 @@ Al finalizar la práctica, serás capaz de:
 - 10 minutos.
 
 ## Tabla de ayuda:
-| Servicio | Vínculo                      |
-|----------|------------------------------|
-| ChatGPT  | [https://chat.openai.com/](https://chat.openai.com/) |
+| **Servicio** | **Vínculo**                           |
+|--------------|---------------------------------------|
+| **ChatGPT**  | [ChatGPT](https://chat.openai.com/) |
+
 
 
 ## Instrucciones

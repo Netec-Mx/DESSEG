@@ -20,7 +20,11 @@ Al finalizar la práctica, serás capaz de:
 
 ### Tarea 1. Instalación.
 
-Paso 1. Ejecuta el archivo `BlueStacksInstaller_5.21.111.1002_native_dc6b14c4d9f7b1785bcc5c837e88652a_MzsxNSwwOzUsMTsxNSw0OzE1.exe`, el cual se encuentra en la carpeta de archivos del laboratorio 4.
+Paso 1. Ingresar a la carpeta de archivos ubicada en el escritorio llamada `Lab 04-MobileSecurity`, y dar doble clic al archivo ejecutable, el cual debe tener un formato similar al siguiente: `BlueStacksInstaller_5.21.111.1002_native_dc6b14c4d9f7b1785bcc5c837e88652a_MzsxNSwwOzUsMTsxNSw0OzE1.exe`.
+
+![cap4](../images/cap_0_01.png)
+
+![cap4](../images/cap_0_02.png)
 
 Paso 2. Haz clic en `Install now`, botón que se muestra a continuación:
 
